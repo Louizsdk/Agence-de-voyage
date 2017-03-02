@@ -1,0 +1,116 @@
+h4{
+  font-size: 13px;
+  font-weight: lighter;
+  color: white;
+}
+a{
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  line-height: 1.2em;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+.footer{
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
+}
+
+/*1ère ligne footer*/
+.footerTop{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  background-color: #434A54;
+}
+/*---------------------------Sprite à terminer----------------------------------------*/
+.reseauxSociaux li{
+  width: 175px;
+  height: 30px;
+  display: inline-block;
+  background: url('http://www.thomascook.fr/fileadmin/template/img/sprite_social.png')no-repeat;
+  list-style-image: none;
+}
+/*------------------------------------------------------------------------------------*/
+.excluMail{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#email{
+  margin-left: 2%;
+  font-weight: bold;
+}
+#btnEmail{
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+/*Section milieu du footer*/
+.footerMid{
+  display: flex;
+  background-color: #757B84;
+}
+.besoinAide{
+  display: flex;
+  flex-direction: column;
+  padding-left:2%;
+}
+.btnfooterMid{
+  border-radius: 0 0 0 0;
+  border-style: none;
+  padding: 1%;
+  margin: 2%;
+  background-color: #5B6472;
+  color: white;
+}
+.catalogues{
+  display: flex;
+  flex-direction: column;
+  padding: 7%;
+}
+.imgCatalogue{
+  height: 90px;
+  width: 60px;
+}
+.autreSites li{
+  list-style-type: none;
+}
+.footerNav{
+  display: flex;
+  background-color: #434A54;
+  justify-content: space-around;
+  color: #FFFFFF;
+}
+#menuDeroulant{
+  display: none;
+}
+
+/*Footer partie paiements*/
+.footerPaiement{
+  display: flex;
+  background-color: #757B84;
+  font-size: 13px;
+}
+.footerPaiementLeft{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2%;
+}
+
+.footerPaiementRight{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2%;
+}
