@@ -1,0 +1,113 @@
+/* PHOTO */
+body {
+  background: url('NY-1400x541-fr_02.jpg') no-repeat center 0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* //////////////////////////////////// */
+
+.Container {
+  width: 448px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;;
+  font-size: 12px;
+}
+
+ul[role="tablist"] {
+  font-weight: bold;
+  border:none;
+}
+
+.tab-content {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 25px 0 25px 25px;
+  position: relative;
+  top: 1px;
+}
+
+li[role="presentation"] a {
+  background: rgba(255, 173, 43, 0.9);
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  width: 112px;
+  height: 31px;
+  padding: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: none;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* FORM STYLE */
+[class *= 'col-'] {
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.basic-fields select {
+  width: 190px;
+}
+
+.basic-fields input, .basic-fields select {
+  height: 30px;
+  background: #fff;
+  border: 1px solid rgb(175, 182, 192);
+  padding: 0px 10px;
+}
+
+.btn-form {
+  background: url('search-letsgo.png') no-repeat center top #ffad2b;
+  text-indent: -9999px;
+  width: 124px;
+  height: 30px;
+  border: none;
+  box-shadow: 0px 2px 0px #c76800;
+  border-radius: 2px;
+  float:right;
+  margin-right: 33px;
+}
+
+.btn-form:hover {
+  background: url('search-letsgo.png') no-repeat center top #f88200;
+}
+
+.basic-fields input[name="destination"] {
+  width: 390px;
+}
+
+.basic-fields input::-webkit-input-placeholder, .basic-fields select {
+  font-weight: bold;
+  color: black!important;
+}
+
+.basic-fields input::-moz-input-placeholder {
+  font-weight: bold;
+  color: black!important;
+}
+
+.basic-fields input:-moz-input-placeholder {
+  font-weight: bold;
+  color: black!important;
+}
+
+.basic-fields input:-ms-input-placeholder {
+  font-weight: bold;
+  color: black!important;
+}
