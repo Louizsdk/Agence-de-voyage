@@ -1,3 +1,10 @@
+/* HELPERS */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .App {
   text-align: center;
 }
