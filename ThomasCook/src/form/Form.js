@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
-
 import Tab from 'react-bootstrap/lib/Tab';
 import Tabs from 'react-bootstrap/lib/Tabs';
+import Depart from './datepicker/Date.js';
 import './Form.css';
 
+
 class Form extends Component {
+
   render() {
     return (
 
         <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
+
           <Tab eventKey={1} title="SÉJOUR">
+
             <form name="benguine">
+
               <div className="basic-fields group">
 
                 <p className="col-voyage">
@@ -31,14 +36,7 @@ class Form extends Component {
                 </p>
 
                 <p className="col-datedepart">
-                  <select className="selDate" name="departureDate" placeholder="Date de départ">
-                    <option>8 Mars 2017</option>
-                    <option>9 mars 2017</option>
-                    <option>10 mars 2017</option>
-                    <option>11 mars 2017</option>
-                    <option>12 mars 2017</option>
-                    <option>13 mars 2017</option>
-                  </select>
+                  <Depart />
                 </p>
 
                 <p className="col-duree">
@@ -104,14 +102,7 @@ class Form extends Component {
                 </p>
 
                 <p className="col-datedepart">
-                  <select className="selDate" name="departureDate" placeholder="Date de départ">
-                    <option>8 Mars 2017</option>
-                    <option>9 mars 2017</option>
-                    <option>10 mars 2017</option>
-                    <option>11 mars 2017</option>
-                    <option>12 mars 2017</option>
-                    <option>13 mars 2017</option>
-                  </select>
+                  <Depart />
                 </p>
 
                 <p className="col-duree">
@@ -177,14 +168,7 @@ class Form extends Component {
                 </p>
 
                 <p className="col-datedepart">
-                  <select className="selDate" name="departureDate" placeholder="Date de départ">
-                    <option>8 Mars 2017</option>
-                    <option>9 mars 2017</option>
-                    <option>10 mars 2017</option>
-                    <option>11 mars 2017</option>
-                    <option>12 mars 2017</option>
-                    <option>13 mars 2017</option>
-                  </select>
+                  <Depart />
                 </p>
 
                 <p className="col-duree">
@@ -250,14 +234,7 @@ class Form extends Component {
                 </p>
 
                 <p className="col-datedepart">
-                  <select className="selDate" name="departureDate" placeholder="Date de départ">
-                    <option>8 Mars 2017</option>
-                    <option>9 mars 2017</option>
-                    <option>10 mars 2017</option>
-                    <option>11 mars 2017</option>
-                    <option>12 mars 2017</option>
-                    <option>13 mars 2017</option>
-                  </select>
+                  <Depart />
                 </p>
 
                 <p className="col-duree">
