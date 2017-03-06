@@ -9,7 +9,7 @@ class Form extends Component {
 
   render() {
     return (
-
+      <div className="tab-container">
         <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
 
           <Tab eventKey={1} title="SÉJOUR">
@@ -278,8 +278,7 @@ class Form extends Component {
             </form>
           </Tab>
         </Tabs>
-
-
+    </div>
     );
   }
 }

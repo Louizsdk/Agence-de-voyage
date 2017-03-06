@@ -1,8 +1,3 @@
-/* PHOTO */
-body {
-  background: url('NY-1400x541-fr_02.jpg') no-repeat center 0;
-}
-
 .group:after {
   content: "";
   display: table;
@@ -10,8 +5,7 @@ body {
 }
 
 /* //////////////////////////////////// */
-
-.Container {
+.tab-container {
   width: 451px;
   margin: 0 auto;
   font-family: Arial, sans-serif;;
