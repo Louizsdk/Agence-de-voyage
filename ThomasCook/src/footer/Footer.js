@@ -1,6 +1,5 @@
-  import React, { Component } from 'react';
-import {FooterJS} from './footer.css';
-import './footerJS.js';
+import React, { Component } from 'react';
+import './footer.css';
 
 class footer extends Component {
   render() {
@@ -126,10 +125,10 @@ class footer extends Component {
             <img src="http://www.thomascook.fr/fileadmin/image/paiements.png" alt=""/>
           </div>
         </div>
-        <script type="text/javascript" src={FooterJS}></script>
+
       </div>
     );
   }
 }
 
-export default footer;
+export default Footer;
