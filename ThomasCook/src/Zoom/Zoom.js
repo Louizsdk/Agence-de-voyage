@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Zoom.css';
-import Slider from './Zoomslider';
+
 
 class Zoom extends Component {
   render() {
@@ -36,8 +36,9 @@ class Zoom extends Component {
                  </div>
              </div>
              </a>
+
          </div>
-        <script src={Slider}></script>
+
       </div>
     );
   }

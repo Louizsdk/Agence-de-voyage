@@ -1,0 +1,163 @@
+/* PHOTO */
+body {
+  background: url('NY-1400x541-fr_02.jpg') no-repeat center 0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* //////////////////////////////////// */
+
+.Container {
+  width: 451px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;;
+  font-size: 12px;
+}
+
+ul[role="tablist"] {
+  font-weight: bold;
+  border:none;
+}
+
+.tab-content {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 30px 0 30px 30px;
+  position: relative;
+  top: 1px;
+}
+
+li[role="presentation"] {
+  border-right: 1px solid #434a54;
+}
+
+li[role="presentation"]:last-child {
+  border: none;
+}
+
+li[role="presentation"] a {
+  background: rgba(255, 173, 43, 0.9);
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  width: 112px;
+  height: 31px;
+  padding: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: none;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* DATE PICKER */
+.react-datepicker__header {
+  background: none;
+  border-bottom: none;
+}
+
+
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover, .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range {
+  background-color: #ffad2b;
+}
+
+.react-datepicker__month-container {
+  width: 274px;
+  height: 240px;
+  font-size: 12px;
+}
+
+.react-datepicker__month, .react-datepicker__day-names {
+  text-align: left;
+}
+
+.react-datepicker__day-name {
+  width: 34px;
+}
+
+.react-datepicker__month {
+  border: 1px solid #000;
+}
+
+
+.react-datepicker__day {
+  width: 34px;
+  height: 32px;
+}
+
+.react-datepicker__current-month {
+  font-size: 12px;
+}
+
+/* FORM STYLE */
+[class *= 'col-'] {
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.basic-fields select, .col-datedepart input {
+  width: 190px;
+}
+
+.basic-fields input, .basic-fields select {
+  height: 30px;
+  background: #fff;
+  border: 1px solid rgb(175, 182, 192);
+  padding: 0px 10px;
+  font-size: 13px;
+}
+
+.btn-form {
+  background: url('search-letsgo.png') no-repeat center top #ffad2b;
+  text-indent: -9999px;
+  width: 124px;
+  height: 30px;
+  border: none;
+  box-shadow: 0px 2px 0px #c76800;
+  border-radius: 2px;
+  float:right;
+  margin-right: 33px;
+}
+
+.btn-form:hover {
+  background: url('search-letsgo.png') no-repeat center top #f88200;
+}
+
+.basic-fields input[name="destination"] {
+  width: 390px;
+}
+
+.basic-fields input::-webkit-input-placeholder, .basic-fields select {
+  font-weight: bold;
+  color: black!important;
+}
+
+.basic-fields input::-moz-input-placeholder {
+  font-weight: bold;
+  color: black!important;
+}
+
+.basic-fields input:-moz-input-placeholder {
+  font-weight: bold;
+  color: black!important;
+}
+
+.basic-fields input:-ms-input-placeholder {
+  font-weight: bold;
+  color: black!important;
+}

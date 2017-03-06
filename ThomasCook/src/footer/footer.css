@@ -3,7 +3,7 @@ h4{
   font-weight: lighter;
   color: white;
 }
-a{
+.footer a{
   display: flex;
   flex-direction: column;
   font-size: 11px;
