@@ -1,0 +1,182 @@
+.Destinations{
+    margin-left: 11em;
+}
+.Destino-Left{
+        margin-top: 8em;
+        width: 482px;
+        height: 334px;
+        float: left;
+        font-size: 13px;
+        display: block;
+        margin-right: 10px;
+        padding-bottom: 20em;
+}
+
+.Back-White li{
+    background: #ffffff;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    height: 55px;
+    line-height: 55px;
+    position: relative;
+    list-style: none;
+    padding-top: 1em;
+}
+
+.Back-White li a{
+    text-decoration: none;
+}
+.line-vol{
+    display: table;
+    width: 100%;
+    height: 55px;
+    
+}
+a{
+        color: #666666;
+}
+.destin{
+        width: 150px;
+    line-height: 15px;
+    vertical-align: middle;
+    padding-left: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.dates{
+    vertical-align: middle;
+    font-size: 10px;
+    width: 125px;
+    padding-left: 5px;
+}
+.date{
+        display: block;
+    height: 12px;
+    line-height: 12px;
+}
+.logo{
+    display: table-cell;
+    vertical-align: top;
+}
+.pricing{
+    white-space: nowrap;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 16px;
+    vertical-align: middle;
+    color: #f25406;
+    font-size: 16px;
+    font-weight: bold;
+}
+.imgs{
+    margin-left: -15px;
+    max-width: 70px;
+    position: absolute;
+    max-height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: auto;
+}
+
+.Destino-Left li p {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.arrivals{
+        font-size: 16px;
+}
+.departures{
+        display: block;
+    font-size: 10px;
+}
+
+
+.hr2{
+  width: 445px; 
+  height: 1.25em; 
+  border-bottom: 0.0608em solid black; 
+  text-align: center;
+  margin-left: 3.2em;
+}
+
+.Left{
+    margin-top: 2em;
+}
+
+.see-More{
+    margin-left: 20em;
+}
+.btn_More {
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid #0987b9;
+    border-radius: 4px;
+    background: url(http://www.thomascook.fr/fileadmin/template/css/images/chevron_droite_bleu.png) #ffffff right 10px center no-repeat;
+    font-family: fs_blakeregular, sans-serif;
+    padding: 0 25px 0 10px;
+    font-size: 14px;
+    color: #0987b9;
+    display: inline-block;
+    transition: all .3s ease;
+    margin-top: 10px;
+}
+
+
+------------------------------
+
+
+
+.Back-White-Right{
+    
+    background: #ffffff;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    height: 55px;
+    line-height: 55px;
+    position: relative;
+    margin-top: 2em;
+
+}
+
+.Back-White-Right li{
+     /*background: #ffffff;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    height: 55px;
+    line-height: 55px;
+    /*position: relative;*/
+    list-style: none;
+    /*padding-top: 1em;
+    */
+
+}
+
+.img-Left{
+        box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 15px 17px 0 11px;
+    width: 50%;
+}
+
+.Back-White-Right .bloc_top_sejours .image img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.Back-White li:hover {
+    border: 1px solid #fdb23b;
+    background: url(http://www.thomascook.fr/fileadmin/template/css/images/chevron_droite_orange.png) #ffffff right 1px center no-repeat;
+    
+}
+
+.Right{
+    width: 15px;
+}

@@ -1,0 +1,91 @@
+.Return{
+}
+.offres{
+    width: 910px;
+    height: 256px;
+    /*background-color: white;*/
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14em;
+    margin-top: 2em;
+    
+    
+}
+.offre{
+        margin-right: 11px;
+}
+
+.Disposition{
+display: flex;
+align-items: center;
+    /*justify-content: space-between;*/
+    background-color: white;
+    height: 140px;
+}
+.description{
+    /*background-color: white;*/
+    margin-left: 7px;
+    margin-top: 2em;
+}
+.prix{
+        color: #f25406;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.prix a {
+    text-decoration: none;
+}
+
+.apartirde {
+    font-size: 10px;
+    font-weight: normal;
+    margin-right: 6px;
+}
+.asterisque {
+    font-size: 15px;
+    vertical-align: super;
+}
+.pricing{
+    right: 20px;
+}
+.title {
+    font-size: 14px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 12em;
+    text-overflow: ellipsis;
+}
+.description .precisions {
+    color: #999999;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.sub {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.button {
+    /*width: 10px;*/
+    height: 29px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #ffad2b;
+    padding: 5px 10px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #2c3035;
+    border-radius: 5px;
+    font-weight: bold;
+    bottom: 10px;
+    right: 10px;
+}
+
+.button:hover{
+    background: #f88200;
+}
