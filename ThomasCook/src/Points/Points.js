@@ -16,14 +16,11 @@ var Points = React.createClass({
           <div className="five_point">
                   <h1 className="TH_five_point">L'AGENCE DE VOYAGE EN LIGNE THOMAS COOK EN 5 POINTS ESSENTIELS</h1>
                   <ul className="five_item">
-                    <MediaQuery query='(min-device-width: 1224px)'>
-                    <MediaQuery query='(orientation: portrait)'>
                       <li>
                         <img src={item1}/>
                           <p className="item_01">ZÉRO FRAIS DE DOSSIER</p>
                           <p className="b_item_01">EN LIGNE</p>
                       </li>
-                    </MediaQuery>
                       <li>
                           <img src={item2}/>
                           <p className="item_02">À VOTRE ÉCOUTE</p>
@@ -44,7 +41,6 @@ var Points = React.createClass({
                           <p className="item_05">PIONNIER</p>
                           <p className="b_item_05">DU VOYAGE ORGANISÉ</p>
                       </li>
-                    </MediaQuery>
                   </ul>
                   <div className="contact">
                       <p className="we_contact">NOUVEAU : contacter un conseiller</p>
