@@ -27,8 +27,12 @@
 }
 /*-----------------J'ai creer une div afin de pouvoir utiliser flexbox et centrer le carousel-----------------*/
 .ZoomContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 20px 0;
   padding: 10px 0;
 }
@@ -36,8 +40,11 @@
 .ZoomCarousel {
   width: 930px;
   height: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   overflow: hidden;
 
 }
@@ -49,8 +56,12 @@
   min-width: 220px;
   max-height: 238px;
   min-height: 238px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   overflow: hidden;
   position: relative;
 
@@ -66,11 +77,13 @@
   height: 40%;
   color: #fff;
   margin-bottom: -40px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
  .C-FirstImage:hover .C-first-description  {
   margin-bottom: 0px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .C-FirstImage:hover .C-button  {
@@ -85,8 +98,12 @@
   min-width: 220px;
   max-height: 238px;
   min-height: 238px;;
+  display: -webkit-box;;
+  display: -ms-flexbox;;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   overflow: hidden;
   position: relative;
 
@@ -97,11 +114,13 @@
   height: 40%;
   color: #fff;
   margin-bottom: -40px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .C-SecondImage:hover .C-first-description  {
   margin-bottom: 0px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .C-SecondImage:hover .C-button  {
@@ -114,8 +133,12 @@
   min-width: 220px;
   max-height: 238px;
   min-height: 238px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   overflow: hidden;
   position: relative;
 
@@ -126,11 +149,13 @@
   height: 40%;
   color: #fff;
   margin-bottom: -40px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
  .C-ThirdImage:hover .C-first-description  {
   margin-bottom: 0px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   font-family: 'Arial', sans-serif;
 }
@@ -145,8 +170,12 @@
   min-width: 220px;
   max-height: 238px;
   min-height: 238px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   overflow: hidden;
   position: relative;
 
@@ -157,11 +186,13 @@
   height: 40%;
   color: #fff;
   margin-bottom: -40px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
  .C-ForthImage:hover .C-first-description  {
   margin-bottom: 0px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   font-family: 'Arial', sans-serif;
 }
@@ -214,5 +245,4 @@
   font-size: 10px;
   margin-bottom: 10px;
   text-align: center;
-
 }
