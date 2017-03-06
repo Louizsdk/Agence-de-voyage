@@ -2,7 +2,7 @@
 .Zoom {
   background: #EAEAEA;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
 
 }
 * {
@@ -36,7 +36,7 @@
   width: 930px;
   height: 256px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   overflow: hidden;
 
 }
@@ -52,35 +52,11 @@
   align-items: flex-end;
   overflow: hidden;
   position: relative;
-  margin-left: 310px;
-  margin-right: 15px;
+
 
 
 }
-/*-----------------------------------le code a virer si j'oublie a le faire-----------------------------------*/
-/*div {
-	width: 90px; height: 90px;
-	background: #fff;
-	border: 20px solid #aaa;
-	border-radius: 30px;
 
-	transition: border-radius 2s, border-color 3s;
-}
-div:hover {
-	border-color: #333;
-	transform: rotate(1080deg);
-	border-radius: 50%;
-
-	transition: all 2s;
-}*/
-#next {
-  position: absolute;
-  right: 200px;
-}
-#prev {
-  position: absolute;
-  left: 200px;
-}
 
 /*---------------------J'ai creer l'animation slideup que je vais reutiliser pour tous les elements du Carousel---------------------*/
 .Z-FirstImage .Z-first-description {
@@ -112,7 +88,7 @@ div:hover {
   align-items: flex-end;
   overflow: hidden;
   position: relative;
-  margin-right: 15px;
+
 }
 .Z-SecondImage .Z-first-description {
   background: rgba(0, 0, 0, 0.60);
@@ -141,7 +117,7 @@ div:hover {
   align-items: flex-end;
   overflow: hidden;
   position: relative;
-  margin-right: 10px;
+
 }
 .Z-ThirdImage .Z-first-description {
   background: rgba(0, 0, 0, 0.60);

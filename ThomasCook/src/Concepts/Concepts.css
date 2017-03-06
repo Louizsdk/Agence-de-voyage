@@ -1,0 +1,218 @@
+/*-----------------Ici commence la partie Zoom Sur - fait par Ion-----------------*/
+.Zoom {
+  background: #EAEAEA;
+  width: 100vw;
+  height: 80vh;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------------------------Style pour le text concepts------------------------*/
+.Zoom-first-title {
+  width: 915px;
+  height: 12.5px;
+  border-bottom: 1px solid #666666;
+  text-align: center;
+  display: block;
+  margin: 0 auto ;
+}
+.Zoom-first-title span {
+  font-size: 25px;
+  color: #666666;
+  background-color: #EAEAEA;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+/*-----------------J'ai creer une div afin de pouvoir utiliser flexbox et centrer le carousel-----------------*/
+.ZoomContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+/*-----------------------------COntainer pour les elements de carousel-----------------------------*/
+.ZoomCarousel {
+  width: 930px;
+  height: 256px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+
+}
+
+/*-----------------------------------Le premier element -----------------------------------*/
+.C-FirstImage {
+  background: url('./image/first.jpg');
+  max-width: 220px;
+  min-width: 220px;
+  max-height: 238px;
+  min-height: 238px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+
+
+
+}
+
+
+/*---------------------J'ai creer l'animation slideup que je vais reutiliser pour tous les elements---------------------*/
+.C-FirstImage .C-first-description {
+  background: rgba(0, 0, 0, 0.60);
+  width: 100%;
+  height: 40%;
+  color: #fff;
+  margin-bottom: -40px;
+  transition: all 0.5s;
+}
+
+ .C-FirstImage:hover .C-first-description  {
+  margin-bottom: 0px;
+  transition: all 0.5s;
+}
+.C-FirstImage:hover .C-button  {
+ display: block;
+
+}
+
+/*-----------------------------------Le 2eme element -----------------------------------*/
+.C-SecondImage {
+  background: url('./image/second.jpg');
+  max-width: 220px;
+  min-width: 220px;
+  max-height: 238px;
+  min-height: 238px;;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+
+}
+.C-SecondImage .C-first-description {
+  background: rgba(0, 0, 0, 0.60);
+  width: 100%;
+  height: 40%;
+  color: #fff;
+  margin-bottom: -40px;
+  transition: all 0.5s;
+}
+
+.C-SecondImage:hover .C-first-description  {
+  margin-bottom: 0px;
+  transition: all 0.5s;
+}
+.C-SecondImage:hover .C-button  {
+ display: block;
+}
+/*-----------------------------------Le 3eme element-----------------------------------*/
+.C-ThirdImage {
+  background: url('./image/third.jpg');
+  max-width: 220px;
+  min-width: 220px;
+  max-height: 238px;
+  min-height: 238px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+
+}
+.C-ThirdImage .C-first-description {
+  background: rgba(0, 0, 0, 0.60);
+  width: 100%;
+  height: 40%;
+  color: #fff;
+  margin-bottom: -40px;
+  transition: all 0.5s;
+}
+
+ .C-ThirdImage:hover .C-first-description  {
+  margin-bottom: 0px;
+  transition: all 0.5s;
+  font-family: 'Arial', sans-serif;
+}
+.C-ThirdImage:hover .C-button  {
+ display: block;
+}
+
+/*-----------------------------------Le 3eme element-----------------------------------*/
+.C-ForthImage {
+  background: url('./image/fourth.jpg');
+  max-width: 220px;
+  min-width: 220px;
+  max-height: 238px;
+  min-height: 238px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+
+}
+.C-ForthImage .C-first-description {
+  background: rgba(0, 0, 0, 0.60);
+  width: 100%;
+  height: 40%;
+  color: #fff;
+  margin-bottom: -40px;
+  transition: all 0.5s;
+}
+
+ .C-ForthImage:hover .C-first-description  {
+  margin-bottom: 0px;
+  transition: all 0.5s;
+  font-family: 'Arial', sans-serif;
+}
+.C-ForthImage:hover .C-button  {
+ display: block;
+}
+/*------------------------------------------Style pour le texte ------------------------------------------*/
+.ZoomContainer a {
+  text-decoration: none;
+}
+.ZoomCarousel .C-first-description .C-title {
+  padding: 6px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/*--------------------------------creation du button--------------------------------*/
+.C-button {
+  display: none;
+  position: absolute;
+  right: 60px;
+  bottom: 10px;
+  background: #ffad2b;
+  border: none;
+  padding: 0 10px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 13px;
+  color: #2c3035;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.C-container-text {
+  width: 915px;
+  display: block;
+  margin: 25px auto 35px auto;
+  text-align: justify;
+  color: #666;
+  font-size: 12px;
+}
+.C-text-mentions {
+  width: 915px;
+  display: block;
+  margin: 0 auto;
+}
+
+.C-mentions {
+  color: #666;
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}

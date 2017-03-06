@@ -34,14 +34,6 @@ class Zoom extends Component {
                    </div>
                     <button type="button" className="Z-button">DÉCOUVRIR</button>
                  </div>
-                 <div className="Z-ThirdImage">
-                   <div className="Z-first-description">
-                     <p className="Z-title">Vacances été 2017</p>
-                     <p>Profitez de nos séjours à prix réduits pour vous évader cet été en Espagne, Italie, Grèce...</p>
-                   </div>
-                    <button type="button" className="Z-button">DÉCOUVRIR</button>
-                 </div>
-
              </div>
              </a>
 
@@ -53,9 +45,3 @@ class Zoom extends Component {
 }
 
 export default Zoom;
-
-// <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
-//       <span style="font-size: 40px; background-color: #F3F5F6; padding: 0 10px;">
-//         Section Title <!--Padding is optional-->
-//       </span>
-//     </div>
