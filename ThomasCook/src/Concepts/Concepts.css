@@ -2,7 +2,7 @@
 .Zoom {
   background: #EAEAEA;
   width: 100vw;
-  height: 80vh;
+  height: 120vh;
 
 }
 * {
@@ -233,6 +233,7 @@
   text-align: justify;
   color: #666;
   font-size: 12px;
+  background: #EAEAEA;
 }
 .C-text-mentions {
   width: 915px;
@@ -245,4 +246,5 @@
   font-size: 10px;
   margin-bottom: 10px;
   text-align: center;
+  background: #EAEAEA;
 }

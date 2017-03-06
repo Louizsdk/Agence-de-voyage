@@ -1,0 +1,47 @@
+* {
+  font-family: arial;
+
+}
+
+/*div -g for the lot 3*/
+.TH_five_point {
+  color: #787771;
+  font-size: 25px;
+  text-align: center;
+}
+
+/*div -g for five items*/
+.five_item {
+  list-style: none;
+  text-align: center;
+  margin-left: 11.250em;
+  margin-right: 11.250em;
+  display: inline-flex;
+}
+
+/*title for all items*/
+.item_01, .item_02, .item_03, .item_04, .item_05 {
+  font-size: 12px;
+  margin-left: 2.875em;
+  margin-right: 2.813em;
+  text-align: center;
+}
+
+/*description for all b-items*/
+ .b_item_01, .b_item_02, .b_item_03, .b_item_04, .b_item_05{
+font-size: 8px;
+ }
+
+/*title new contact*/
+.we_contact {
+  color: #787771;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*title five point*/
+.five_point_text {
+  color: #787771;
+  font-size: 15px;
+  text-align: center;
+}

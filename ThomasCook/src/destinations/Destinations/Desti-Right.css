@@ -1,0 +1,82 @@
+
+.Back-White-Right{
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    margin-top: 15px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.Back-White-Right li{
+    
+    list-style: none;
+    width: 220px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.img-Left{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 0.07em;
+    /*margin: 0;*/
+    padding: 15px 17px 0 11px;
+}
+
+.fl-Right{
+    margin-top: 0.90em;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.top-Ete{
+    margin-top: 8em;
+        width: 480px;
+        height: 334px;
+        float: left;
+        font-size: 13px;
+        display: block;
+        margin-right: 10px;
+        padding-bottom: 20em;
+}
+
+.hr3{
+  width: 445px;
+  height: 1.25em;
+  border-bottom: 0.0608em solid black;
+  text-align: center;
+  margin-left: 1em;
+}
+
+
+.Back-White-Right .destin{
+    margin-top: 1em;
+    margin-left: -1em;
+    /*margin-right: em;*/
+}
+
+.Back-White-Right .pricing{
+    margin-top: -2em;
+
+}
+
+.see-More a{
+text-decoration: none;
+}
+.Back-White-Right li:hover {
+    border: 1px solid #fdb23b;
+    background: url(http://www.thomascook.fr/fileadmin/template/css/images/chevron_droite_orange.png) #ffffff right 1px center no-repeat;
+
+}
+
+.Back-White-Right li a{
+    text-decoration: none;
+}

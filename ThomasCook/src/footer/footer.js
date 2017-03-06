@@ -64,7 +64,6 @@ class Footer extends Component {
           <i className="fa fa-angle-down btnMenu" aria-hidden="true"></i>
           <h4>OÙ ET QUAND PARTIR</h4>
           <i className="fa fa-angle-down btnMenu" aria-hidden="true"></i>
-        {/* Créer des liste pour chaque h4 dans une div display none et animationJS quand bouton est cliqué */}
         <div id="menuDeroulant">
           <div className="menuIdeesVoyages">
             <a href="" className="linkFooter">Collection été Thomas Cook</a>

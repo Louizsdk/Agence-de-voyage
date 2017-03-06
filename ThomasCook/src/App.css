@@ -1,6 +1,14 @@
 /* HELPERS */
-.group:after {
+/*.group:after {
   content: "";
   display: table;
   clear: both;
+}*/
+.App {
+  background: #EAEAEA;
+}
+.ri{
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 220px;
 }

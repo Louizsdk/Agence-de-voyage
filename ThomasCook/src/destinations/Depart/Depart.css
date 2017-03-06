@@ -1,0 +1,92 @@
+.Main-D{
+  background-color: rgb(234, 234, 234);
+  height: 60em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Arial, sans-serif;
+}
+.hr_span{
+  font-size: 25px;
+  background-color: rgb(234, 234, 234);
+  /*padding: 0 10px;*/
+      font-family: 'thomasscript_medium_baseRg', Arial, sans-serif;
+}
+.hr{
+  width: 908px;
+  height: 1.25em;
+  border-bottom: 0.0608em solid black;
+  text-align: center;
+  margin-left: 14em;
+}
+.paris_drop{
+      color: #fd8201;
+    position: relative;
+    cursor: pointer;
+}
+
+.libelle::after{
+    content: '';
+    display: inline-block;
+    background: url(http://www.thomascook.fr/fileadmin/template/css/images_new/fleche_dropdown_orange_bas.png) no-repeat;
+    width: 1.25em;
+    height: 0.5625em;
+    /*padding-bottom: 0.125em;*/
+    margin-left: 0.4375em;
+}
+
+.dataset {
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 55;
+    left: 0;
+    top: 34px;
+    padding: 10px 0;
+    width: 240px;
+    box-sizing: border-box;
+    margin-left: -100px;
+    border: 1px solid #afb6c0;
+    border-radius: 5px;
+}
+
+.dataset .single-data {
+    display: block;
+    cursor: pointer;
+}
+
+.dataset:before {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -20px;
+    left: 110px;
+    border: 10px solid transparent;
+    border-bottom-color: #afb6c0;
+}
+.dataset:after {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -19px;
+    left: 110px;
+    border: 10px solid transparent;
+    border-bottom-color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

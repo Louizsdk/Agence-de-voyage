@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+    font-family: arial;
+
+}
+
+
+/*début header*/
+.Headercontainer {
+  width: 100vw;
+  height: 85vh;
+  background: url('slide.jpg') fixed no-repeat;
+  background-size: 100%;
+
+}
+.Headerlogo {
+    right: 150px;
+}
+
+.Headercontainer ul li {
+    list-style: none;
+}
+
+.HeaderNav a {
+    text-decoration: none;
+    color: #000000;
+    display: -moz-inline-box;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.Agence {
+    background: url(picto_location.png)no-repeat 0 2px;
+}
+
+.Header {
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+
+}
+.Headerfirst {
+  width: 930px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.HeaderNav {
+    font-size: 12px;
+
+    color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+}
+
+.HeaderNav a:hover {
+    color: #fd8201;
+}
+
+.HeaderHoraires {
+    font-size: 10px;
+
+    padding-top: 20px;
+    padding-right:15px;
+    margin-left: -10px;
+}
+
+.HeaderHoraires span {
+    font-size: 10px;
+
+}
+
+.HeaderContact {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    text-align: right;
+    right: 40px;
+}
+
+.HeaderContact p {
+    font-size: 10px;
+    padding: 0 5px 3px 5px;
+}
+
+.HeaderContact h4 {
+    border: 1px solid #000000;
+    border-radius: 4px;
+padding: 7px 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+
+}
+
+#HeaderSocial  {
+    margin-left: -8px;
+margin-top: 10px;
+      list-style-type: none;
+}
+
+
+/*fin du header*/
+
+
+/*début du menu*/
+
+#Navheader {
+
+    -webkit-box-align: center;
+
+        -ms-flex-align: center;
+
+                -ms-grid-row-align: center;
+
+            align-items: center;
+
+}
+
+#Navheader ul {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    padding-right: 50px;
+    background: url(http://www.thomascook.fr/fileadmin/template/css/images_new/bg_main-nav.png);
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+#Navheader a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+.Navmain {
+
+}
+
+.Headercontainer ul {
+    list-style-type: none;
+    margin: 10px;
+
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+
+
+
+.Headercontainer li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px 13px;
+    text-decoration: none;
+}
+.Headercontainer li {
+  color: #fff;
+}
+.Headercontainer li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.Headercontainer li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+  height: 100px;
+
+    z-index: 1;
+    width: 905px;
+    left: 190px;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*slide*/
