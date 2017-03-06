@@ -7,6 +7,9 @@ class Depart extends Component {
   render() {
     return (
       <div className="Main-D">
+
+
+      <div className="App">
 <div className="">
 <div className="">
 <div className="hr">
@@ -24,8 +27,10 @@ class Depart extends Component {
       <Offre/>
       <Destinations/>
       </div>
+    </div>
     );
   }
 }
+
 
 export default Depart;

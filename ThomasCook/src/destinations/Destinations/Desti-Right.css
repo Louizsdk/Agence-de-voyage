@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .Back-White-Right{
     width: 220px;
     height: 220px;
@@ -10,7 +11,7 @@
 }
 
 .Back-White-Right li{
-    
+
     list-style: none;
     width: 220px;
     border: 1px solid transparent;
@@ -49,6 +50,8 @@
 }
 
 .hr3{
+
+
   width: 445px;
   height: 1.25em;
   border-bottom: 0.0608em solid black;
@@ -79,4 +82,5 @@ text-decoration: none;
 
 .Back-White-Right li a{
     text-decoration: none;
+
 }
